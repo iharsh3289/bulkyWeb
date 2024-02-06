@@ -1,0 +1,10 @@
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/bin/Debug/net8.0/Bulky_Web.Utility.deps.json
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/bin/Debug/net8.0/Bulky_Web.Utility.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/bin/Debug/net8.0/Bulky_Web.Utility.pdb
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/obj/Debug/net8.0/Bulky_Web.Utility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/obj/Debug/net8.0/Bulky_Web.Utility.csproj.CoreCompileInputs.cache
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/obj/Debug/net8.0/Bulky_Web.Utility.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/obj/Debug/net8.0/refint/Bulky_Web.Utility.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/obj/Debug/net8.0/Bulky_Web.Utility.pdb
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/obj/Debug/net8.0/ref/Bulky_Web.Utility.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Utility/obj/Debug/net8.0/Bulky_Web.Utility.csproj.AssemblyReference.cache

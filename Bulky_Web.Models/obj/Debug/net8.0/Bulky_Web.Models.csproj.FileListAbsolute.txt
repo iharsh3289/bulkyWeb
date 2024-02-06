@@ -1,0 +1,11 @@
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/bin/Debug/net8.0/Bulky_Web.Models.deps.json
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/bin/Debug/net8.0/Bulky_Web.Models.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/bin/Debug/net8.0/Bulky_Web.Models.pdb
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/obj/Debug/net8.0/Bulky_Web.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/obj/Debug/net8.0/Bulky_Web.Models.AssemblyInfoInputs.cache
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/obj/Debug/net8.0/Bulky_Web.Models.AssemblyInfo.cs
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/obj/Debug/net8.0/Bulky_Web.Models.csproj.CoreCompileInputs.cache
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/obj/Debug/net8.0/Bulky_Web.Models.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/obj/Debug/net8.0/refint/Bulky_Web.Models.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/obj/Debug/net8.0/Bulky_Web.Models.pdb
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_Web.Models/obj/Debug/net8.0/ref/Bulky_Web.Models.dll

@@ -1,0 +1,17 @@
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/bin/Debug/net8.0/Bulky_web.DataAccess.deps.json
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/bin/Debug/net8.0/Bulky_web.DataAccess.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/bin/Debug/net8.0/Bulky_web.DataAccess.pdb
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/Bulky_web.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/Bulky_web.DataAccess.csproj.CoreCompileInputs.cache
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/Bulky_web.DataAccess.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/refint/Bulky_web.DataAccess.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/Bulky_web.DataAccess.pdb
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/ref/Bulky_web.DataAccess.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/bin/Debug/net8.0/Bulky_web.DataAccess.runtimeconfig.json
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/bin/Debug/net8.0/Bulky_Web.Models.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/bin/Debug/net8.0/Bulky_Web.Utility.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/bin/Debug/net8.0/Bulky_Web.Models.pdb
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/bin/Debug/net8.0/Bulky_Web.Utility.pdb
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/Bulky_web.DataAccess.csproj.AssemblyReference.cache
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/Bulky_web.DataAccess.csproj.CopyComplete
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/obj/Debug/net8.0/Bulky_web.DataAccess.genruntimeconfig.cache
