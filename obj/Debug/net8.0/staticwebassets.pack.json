@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets/images/product/fb958fde-5f06-46ba-a37a-9e03b8b44cc8.jpg"
     },
     {
+      "Id": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/js/company.js",
+      "PackagePath": "staticwebassets/js/company.js"
+    },
+    {
       "Id": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/js/product.js",
       "PackagePath": "staticwebassets/js/product.js"
     },

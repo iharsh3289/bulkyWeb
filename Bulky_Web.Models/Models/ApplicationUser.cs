@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace Bulky_Web.Models;
 public class ApplicationUser:IdentityUser
@@ -10,4 +12,8 @@ public class ApplicationUser:IdentityUser
     public string City { get; set; }
     public string State { get; set; }
     public string PostalCode { get; set; }
+    public int CompanyyId {get;set;}
+    [ForeignKey("CompanyId")]
+    [ValidateNever]
+    public Company company {get;set;}
 }

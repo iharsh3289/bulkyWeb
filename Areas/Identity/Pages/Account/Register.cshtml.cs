@@ -5,11 +5,13 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using Bulky_web.DataAccess.Repository.IRepository;
 using Bulky_Web.Models;
 using Bulky_Web.Utility;
 using Microsoft.AspNetCore.Authentication;
@@ -21,6 +23,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.CodeAnalysis.Elfie.Serialization;
 using Microsoft.Extensions.Logging;
 
 namespace Bulky_Web.Areas.Identity.Pages.Account
@@ -34,6 +37,7 @@ namespace Bulky_Web.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly IUnitOfWork _unitOfWork;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
@@ -41,7 +45,8 @@ namespace Bulky_Web.Areas.Identity.Pages.Account
             RoleManager<IdentityRole> roleManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender,
+            IUnitOfWork unitOfWork)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -50,6 +55,7 @@ namespace Bulky_Web.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _unitOfWork = unitOfWork;
         }
 
         /// <summary>
@@ -115,6 +121,10 @@ namespace Bulky_Web.Areas.Identity.Pages.Account
             public string? City { get; set; }
             public string? State { get; set; }
             public string? PostalCode { get; set; }
+            
+            public int? CompanyyId {get;set;}
+            [ValidateNever]
+            public IEnumerable<SelectListItem> CompanyList { get; set; }
         }
 
 
@@ -134,6 +144,11 @@ namespace Bulky_Web.Areas.Identity.Pages.Account
                 {
                     Text = u,
                     Value = u
+                }),
+                CompanyList = _unitOfWork.Company.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.CompanyId.ToString()
                 })
             };
             

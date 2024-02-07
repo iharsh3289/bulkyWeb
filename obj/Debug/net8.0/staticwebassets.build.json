@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZseWII1J5L+zjoBzW1Y7rhqsMBip9Ei2BJaL7oTOSSw=",
+  "Hash": "qJ5axRSdTbb1U0GYfyBUnqsNSXBZOo6k01OAMScayYU=",
   "Source": "Bulky Web",
   "BasePath": "_content/Bulky Web",
   "Mode": "Default",
@@ -1326,6 +1326,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/product/fb958fde-5f06-46ba-a37a-9e03b8b44cc8.jpg"
+    },
+    {
+      "Identity": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/js/company.js",
+      "SourceId": "Bulky Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/",
+      "BasePath": "_content/Bulky Web",
+      "RelativePath": "js/company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/company.js"
     },
     {
       "Identity": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/js/product.js",
