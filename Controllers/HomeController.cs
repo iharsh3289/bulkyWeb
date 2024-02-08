@@ -27,6 +27,12 @@ public class HomeController : Controller
         Product obj = _unitOfWork.Product.Get( u=>u.ProductId==id ,  includeProperties:"Category");
         return View(obj);
     }
+    
+    public IActionResult Details(ShoppingCart ShoppingCart){   
+        
+        Product obj = _unitOfWork.Product.Get( u=>u.ProductId==ShoppingCart.ProductId ,  includeProperties:"Category");
+        return View(obj);
+    }
 
     public IActionResult Privacy()
     {
