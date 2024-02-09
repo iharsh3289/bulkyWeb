@@ -1,6 +1,8 @@
 using System.Diagnostics;
+using System.Security.Claims;
 using Bulky_web.DataAccess.Repository.IRepository;
 using Bulky_Web.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bulky_Web.Controllers;
@@ -22,16 +24,40 @@ public class HomeController : Controller
         return View(objProductList);
     }
     
-    public IActionResult Details(int id){   
-        
-        Product obj = _unitOfWork.Product.Get( u=>u.ProductId==id ,  includeProperties:"Category");
-        return View(obj);
+    public IActionResult Details(int id)
+    {
+        ShoppingCart cart = new()
+        {
+            Product = _unitOfWork.Product.Get(u => u.ProductId == id, includeProperties: "Category"),
+            Count = 1,
+            ProductId = id
+        };
+        return View(cart);
     }
     
-    public IActionResult Details(ShoppingCart ShoppingCart){   
+    [HttpPost]
+    [Authorize]
+    public IActionResult Details(ShoppingCart ShoppingCart)
+    {
+
+        var claimsIdentity = (ClaimsIdentity)User.Identity;
+        var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+        ShoppingCart.ApplicationUserId = userId;
+
+        ShoppingCart cartFromdb = _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId &&
+                                                                    u.ProductId == ShoppingCart.ProductId);
+        if (cartFromdb != null)
+        {
+            cartFromdb.Count += ShoppingCart.Count;
+            _unitOfWork.ShoppingCart.Update(cartFromdb);
+        }
+        else
+        {
+            _unitOfWork.ShoppingCart.Add(ShoppingCart);
+        }
+        _unitOfWork.Save();
         
-        Product obj = _unitOfWork.Product.Get( u=>u.ProductId==ShoppingCart.ProductId ,  includeProperties:"Category");
-        return View(obj);
+        return RedirectToAction(nameof(Index));
     }
 
     public IActionResult Privacy()

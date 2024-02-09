@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bulky_Web.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07a40dce044ae51d440fbbee3bc938a2e90e1db7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b87e67b79caef8c267910cdbf72c199ce750e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bulky_Web.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bulky_Web.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
