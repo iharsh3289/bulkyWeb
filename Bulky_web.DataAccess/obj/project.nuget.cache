@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MFFnzN+vQtO7xRa7TPVxbtcBiIh6jOvkElA3r/15Pt6yOTojHyqpIQ1Y6Fqm/WGXAAPNoG6xjYkIi2k8EC72dQ==",
+  "dgSpecHash": "l8Cb6KE54LdlDBn/pKTHi7Z5qGtunMSFmpqmOZpsF+NjullZ7oLooAy7C9QQHs382uEkWi/JcVgTHaGuF5uPJw==",
   "success": true,
   "projectFilePath": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky_web.DataAccess/Bulky_web.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,8 @@
     "/Users/harshgarg/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/harshgarg/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/harshgarg/.nuget/packages/stripe.net/43.15.0-beta.1/stripe.net.43.15.0-beta.1.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/system.composition/6.0.0/system.composition.6.0.0.nupkg.sha512",

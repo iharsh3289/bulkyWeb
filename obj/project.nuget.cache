@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BctOGolWeBcUFw+NT8cjz2YLH6gYNqitZSWrUxvSJmB9j5ZkZb+e4eIseP20l113phSBkCLHdUnpq2UgHuQyUQ==",
+  "dgSpecHash": "GzzinU3g2N/p50k09CmnPIsIuvBH+YXY5N45p+0pWe9uq+yuKIydMcL9SO/w9uT3dv3nTAlcFVsymuAxZdc5Zg==",
   "success": true,
   "projectFilePath": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/Bulky Web.csproj",
   "expectedPackageFiles": [
@@ -132,6 +132,7 @@
     "/Users/harshgarg/.nuget/packages/nuget.projectmodel/6.3.1/nuget.projectmodel.6.3.1.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/nuget.protocol/6.3.1/nuget.protocol.6.3.1.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/nuget.versioning/6.3.1/nuget.versioning.6.3.1.nupkg.sha512",
+    "/Users/harshgarg/.nuget/packages/stripe.net/43.15.0-beta.1/stripe.net.43.15.0-beta.1.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/system.codedom/5.0.0/system.codedom.5.0.0.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
     "/Users/harshgarg/.nuget/packages/system.composition/7.0.0/system.composition.7.0.0.nupkg.sha512",

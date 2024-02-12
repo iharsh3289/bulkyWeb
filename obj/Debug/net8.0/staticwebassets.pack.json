@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/images/lawn_leaf.jpg",
+      "PackagePath": "staticwebassets/images/lawn_leaf.jpg"
+    },
+    {
       "Id": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/images/product/075b01cc-8b49-4042-96c3-a01dd8b35bde.png",
       "PackagePath": "staticwebassets/images/product/075b01cc-8b49-4042-96c3-a01dd8b35bde.png"
     },

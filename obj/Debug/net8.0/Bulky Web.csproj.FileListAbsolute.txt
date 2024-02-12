@@ -270,3 +270,4 @@
 /Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
 /Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll
 /Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
+/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/bin/Debug/net8.0/Stripe.net.dll

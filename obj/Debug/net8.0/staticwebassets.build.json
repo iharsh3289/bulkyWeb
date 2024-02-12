@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qJ5axRSdTbb1U0GYfyBUnqsNSXBZOo6k01OAMScayYU=",
+  "Hash": "XgCO75AIYuaaHBoTHGLlC20l9tSWP0KKdBAOwuAUBSg=",
   "Source": "Bulky Web",
   "BasePath": "_content/Bulky Web",
   "Mode": "Default",
@@ -1250,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/images/lawn_leaf.jpg",
+      "SourceId": "Bulky Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/",
+      "BasePath": "_content/Bulky Web",
+      "RelativePath": "images/lawn_leaf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/lawn_leaf.jpg"
     },
     {
       "Identity": "/Users/harshgarg/veersa/dotnet/udemy/code section/Bulky Web/wwwroot/images/product/075b01cc-8b49-4042-96c3-a01dd8b35bde.png",

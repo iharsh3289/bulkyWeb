@@ -41,6 +41,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[43.15.0-beta.1, )"
             }
           },
           "imports": [
